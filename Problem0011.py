@@ -63,4 +63,4 @@ for x in xrange(0,lines):
                 maximum = product
 
 print(maximum)
-./Problem0011.py  0,07s user 0,03s system 97% cpu 0,107 total
+#./Problem0011.py  0,08s user 0,03s system 97% cpu 0,107 total
