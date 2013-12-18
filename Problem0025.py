@@ -28,8 +28,8 @@ import math
 
 number = 1
 
-while int(number*math.log10(1.618) - math.log10(5)/2) + 1 < 1000:
+while int(number*math.log10(1.61803399) - math.log10(5)/2) + 1 < 1000:
     number += 1
 
-print(number - 1)
+print(number)
 #./Problem0025.py  0,02s user 0,01s system 94% cpu 0,027 total
