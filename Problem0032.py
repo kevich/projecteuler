@@ -22,10 +22,13 @@ result = list()
 
 def filterUniq(arr):
     return list(set(arr) - set(['0']))
-for a in xrange(2,10094):
-    b = 2
+#                  123456789
+for a in xrange(1,1000000000):
+    b = 1
     while (len(str(a) + str(b) + str(a*b)) < 9):
         b += 1
+    if (b == 1):
+        break
     b -= 1
     while (len(str(a) + str(b) + str(a*b)) < 10):
         b += 1
